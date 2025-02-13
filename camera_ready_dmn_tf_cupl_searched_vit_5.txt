@@ -1,0 +1,23 @@
+processing the datasetI 
+	lr: 0.1, epoch:20, num_important_channel0, lambda_ape: 0.3, best acc70.40 
+	{"arch": "ViT-B/16", "batch_size": 1, "beta": 5.5, "ctx_init": "a_photo_of_a", "data": "/home/huiwon/TDA/data", "dataset_mode": "test", "epoch": 20, "eps": 1e-08, "ft": false, "gpu": 5, "indice": 0, "lambda_ape": 0.3, "load": null, "log": "camera_ready_dmn_tf_cupl_searched_vit_5", "lr": 0.1, "mapping": "bias", "memory_size": 50, "n_augview": 0, "n_ctx": 4, "n_shot": 0, "num_important_channel": 0, "optimizer": "adamw", "position": "all", "print_freq": 200, "resolution": 224, "seed": 0, "selection_p": 1.0, "set_id": "I", "shared_param": false, "test_sets": "I", "text_prompt": "tip_cupl", "use_searched_param": true, "wd": 0.0001, "workers": 4}
+======== Result Summary ========
+params: bs	lr	selection_p
+params: 1	0.1	1.0
+		 [set_id] 		 Top-1 acc. 		 Top-1 local acc, 		 Top-1 global acc 		 Searched acc 		 beta 		 gama.
+I	mean	
+
+68.764	68.764	
+
+69.510	69.510	
+
+69.656	69.656	
+
+70.396	70.396	
+
+1.000	1.000	
+
+300.000	300.000	
+
+1000.000	1000.000	
+

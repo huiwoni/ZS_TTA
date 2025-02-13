@@ -526,7 +526,6 @@ def main_worker(gpu, args):
         print_log("\n")
 
 
-
 def entropy(outputs):
     # prob: 1*200, logit.
     logits = outputs - outputs.logsumexp(dim=-1, keepdim=True)  # logits = outputs.log_softmax(dim=1) [N, 1000]

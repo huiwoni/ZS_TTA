@@ -22,7 +22,7 @@ import random
 import ipdb
 
 ID_to_DIRNAME={
-    'I': 'ImageNet',
+    'I': 'imagenet/images',
     'A': 'imagenet-a',
     'K': 'ImageNet-Sketch',
     'R': 'imagenet-r',
